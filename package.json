@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "build:ui": "rm -rf dist && cd ~/Dev/Learn/fullstackopen_helsinky_mooc/src/exercises/part_2/phonebook && npm run build && cp -r dist ~/Dev/Learn/fullstackopen_exercises_independent_git/exercises_part_3",
+    "build:ui": "rm -rf dist && cd ~/Dev/Learn/fullstackopen_helsinky_mooc/src/exercises/part_2/phonebook && npm run build && cp -r dist ~/Dev/Learn/fullstackopen_exercises_independent_git/exercises_part_3/",
     "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +16,7 @@
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "express": "^4.18.2",
+    "mongoose": "^8.1.1",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
