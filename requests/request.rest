@@ -4,10 +4,10 @@ GET http://localhost:3001/api/persons
 DELETE http://localhost:3001/api/persons/1
 
 ###
-POST http://localhost:3001/api/persons/ HTTP/1.1
+POST http://localhost:3002/api/persons/ HTTP/1.1
 content-type: application/json
 
 {
-    "name": "Millan Castro",
+    "name": "tere",
     "number": "299208"
 }
